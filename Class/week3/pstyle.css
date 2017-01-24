@@ -1,0 +1,22 @@
+
+.header, .footer{
+  height:100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.middleheight{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.bigbox{
+  height: 500px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.container{
+  padding: 10px;
+}

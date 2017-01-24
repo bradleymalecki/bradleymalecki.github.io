@@ -1,0 +1,12 @@
+
+.header, .footer{
+  height:100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.middleheight{
+  height: 550px;
+  max-height: 550px;
+  min-height: 550px;
+}
