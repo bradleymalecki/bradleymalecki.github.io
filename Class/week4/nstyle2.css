@@ -1,0 +1,84 @@
+
+/*
+.header, .footer{
+  height:100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.middleheight{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.notmiddleheight{
+  height: 50px;
+  max-height: 50px;
+  min-height: 50px;
+}
+
+.bigbox{
+  height: 500px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.row{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+
+*/
+
+.header{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.midheight{
+  height: 600px;
+  max-height: 600px;
+  min-height: 600px;
+}
+
+.footer{
+  height: 110px;
+  max-height: 110px;
+  min-height: 110px;
+}
+
+.mainthreeleft, .mainthreeright{
+  height: 200px;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.mainthreeleft2{
+  height: 175px;
+  max-height: 175px;
+  min-height: 175px;
+}
+
+.mainthreemiddletop{
+  height: 210px;
+  max-height: 210px;
+  min-height: 210px;
+}
+
+.mainthreemiddlebottom{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+img{
+  width: 100%;
+}
