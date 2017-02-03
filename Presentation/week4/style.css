@@ -1,5 +1,38 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lobster|Patrick+Hand');
 
 body{
-  color: blue;
+  background-color: #e74c3c;
+  padding: 25px;
+}
+
+img{
+  max-height: 25%;
+  max-width: 25%;
+  margin-left: 40%;
+
+}
+
+p, h1, h2, h3{
+  color: #ecf0f1;
+  font-family: Lobster, sans-serif;
+  line-height: 1.286;
+}
+
+h1{
+  text-align: center;
+  font-size: 32px;
+}
+
+p{
+  font-family: Patrick hand, sans-serif;
+  font-size: 16px;
+  line-height: 1.286;
+}
+
+h2{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 26px;
 }
