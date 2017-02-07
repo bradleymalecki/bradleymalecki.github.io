@@ -1,0 +1,167 @@
+
+/*
+.header, .footer{
+  height:100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.middleheight{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.notmiddleheight{
+  height: 50px;
+  max-height: 50px;
+  min-height: 50px;
+}
+
+.bigbox{
+  height: 500px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.row{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+
+*/
+
+
+
+
+/*
+
+.header{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.midheight{
+  height: 600px;
+  max-height: 600px;
+  min-height: 600px;
+}
+
+.footer{
+  height: 110px;
+  max-height: 110px;
+  min-height: 110px;
+}
+
+.mainthreeleft, .mainthreeright{
+  height: 200px;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.mainthreemiddletop{
+  height: 200px;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.mainthreemiddlebottom{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+*/
+
+
+
+.horAndVertFlexContainerElementsHorizontal {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MAin big box */
+
+.horAndVertRelativeContainer {
+    position: relative;
+}
+
+.horAndVertRelativeContainer img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.horAndVertRelativeContainer div {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* Right middle bottom box */
+
+.horAndVertRelativeWithChild {
+    position: relative;
+}
+
+.horAndVertAbsoluteChild {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Bottom left middle box */
+
+.paddingMarginPlus img {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.paddingMarginPlus div {
+    padding: 3%;
+}
+
+
+
+/* Bottom most left box */
+.paddingMargin img {
+    margin-top: 5%;
+    margin-left: 16%;
+}
+
+
+.header{
+  height: 25px;
+}
+
+
+.header2{
+  height: 500px;
+}
+
+.header3{
+  height: 200px;
+}
