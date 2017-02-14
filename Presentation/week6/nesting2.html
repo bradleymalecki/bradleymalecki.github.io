@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+
+    <link rel="stylesheet" href="nstyle2.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 randomColor header">HEADER - THIS IS LAYOUT NUMBER ONE</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 randomColor nav">NAV BARS LIKE THE ONES I SPIT - ALL THE IMAGES OF MY WIREFRAME IS A PLACEHOLDER FOR A PICTURE OF A CAR, WHICH WOULD ACT AS A LINK TO FIND MORE INFORMATION </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 randomColor body papa"> My wireframe/desgin is probably the best layout in the class to solve Mr.Leasers problem for like a million reasons. First, and mostly, the body content will act as a display of all the cars Mr.Leaser has to offer, as well as act as links to take them to see more infomraiton. This will engage the user and they will be wowed by the sheer amount of cars Mr.Leaser has in his possesion. </div>
+            <div class="col-md-4 randomColor body papa"> <img class="son" src="wf.jpg" alt="outline"/> </div>
+            <div class="col-md-4 randomColor body papa"> <img class="son" src="wf.jpg" alt="outline"/> </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 randomColor body papa"> <img class="son" src="wf.jpg" alt="outline"/> </div>
+            <div class="col-md-4 randomColor body papa"> Another reason my design will solve all of the bussines problems that they will ever has is because of amazing nav bar that I would implment into the website, If given the time. This Nav bar would be huge and amazing and link to everything that Mr.Leaser could ever want. I'm talking things like Contacts, im talking things like a Home page link, I'm talking things like a pricing chart or something like that. Just trust me, It would be amazing.</div>
+            <div class="col-md-4 randomColor body papa"> <img class="son" src="wf.jpg" alt="outline"/> </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 randomColor body papa"> <img class="son" src="wf.jpg" alt="outline"/> </div>
+          <div class="col-md-4 randomColor body papa"> <img class="son" src="wf.jpg" alt="outline"/> </div>
+          <div class="col-md-4 randomColor body papa"> My wireframe will allow the business to grow and make lots of money, this will lead to the success of the leansing of cars. Therefore, This wireframe is the best. In fact, I believe that my wireframe is so simple to use and so nicely laid out that people from all around the world will understand how my site works. Therefore, this buiness will dominate the global markets. You're welcome.  </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 randomColor footer"> THIS IS THE FOOTER - IM GOING TO PUT THINGS IN HERE LIKE CONTACT INFORMATION OR SOCIAL MEDIA LINKS </div>
+        </div>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script>
+            function getRandomNumber(min, max) {
+                return Math.floor(Math.random() * max + min);
+            }
+
+            $(document).ready(function() {
+
+                var bodyColumns = $(".randomColor");
+
+                bodyColumns.each(function() {
+
+                    $(this).css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+                })
+
+                $("body").css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+
+            })
+        </script>
+</body>
+
+</html>
