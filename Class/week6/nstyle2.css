@@ -1,0 +1,169 @@
+
+/*
+.header, .footer{
+  height:100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.middleheight{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.notmiddleheight{
+  height: 50px;
+  max-height: 50px;
+  min-height: 50px;
+}
+
+.bigbox{
+  height: 500px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.row{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+
+*/
+#low{
+  text-align: center;
+margin: 0 auto;
+      display: block;
+line-height:400px; /* for single lines of text mostly*/
+
+}
+
+#smallpic{
+  max-width: 100px;
+  max-width: 100px;
+}
+
+.papa{
+  position:relative;
+}
+
+.son{
+  position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);  /*redraw the image*/
+}
+
+.son2{
+  position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(25%, -50%);  /*redraw the image*/
+           max-width: 100px;
+           max-height: 100px;
+}
+
+.son3{
+  position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-125%, -50%);  /*redraw the image*/
+           max-width: 100px;
+           max-height: 100px;
+}
+
+.swag{
+  max-width: 100px;
+  max-height: 100px;
+
+            margin-top: 25%;
+            margin-left: 11%;
+}
+
+p{
+  text-align: center;
+margin: 0 auto;
+      display: block;
+line-height:40px;
+  }
+}
+
+.header1{
+  height: 25px;
+  max-height: 25px;
+  min-height: 25px;
+}
+
+.header2{
+  height: 250px;
+  max-height: 250px;
+  min-height: 250px;
+}
+
+.header21{
+  height: 250px;
+  max-height: 250px;
+  min-height: 250px;
+}
+
+.header21 img{
+  padding: 5% 10% 5% 15%;
+            margin-top: 10%;
+            margin-left: 11%;
+}
+
+.header{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.beader{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.beader img{
+  margin: 0 auto;
+  display: block;
+  line-height:100px;
+}
+
+.midheight{
+  height: 600px;
+  max-height: 600px;
+  min-height: 600px;
+}
+
+.footer{
+  height: 110px;
+  max-height: 110px;
+  min-height: 110px;
+}
+
+.mainthreeleft, .mainthreeright{
+  height: 200px;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.mainthreemiddletop{
+  height: 200px;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.mainthreemiddlebottom{
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
