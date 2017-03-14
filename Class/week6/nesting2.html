@@ -34,70 +34,63 @@
 
         </div>
         <div class="row">
-            <div class="col-md-12 randomColor beader"> <img id="smallpic" src="lt.png" alt=
-              "thing"> </div>
+            <div class="col-md-12 randomColor beader"> <img id="smallpic" src="lt.png" alt="thing"> </div>
 
         </div>
 
         <div class="row">
-              <div class="col-md-4 randomColor header21"><img src="lt.png" alt=
-                "thing"></div>
-             <div class="col-md-4 randomColor header2"> <img class="swag" src="lt.png" alt=
-               "thing"> <img class="swag" src="lt.png" alt=
-                 "thing"> </div>
-                <div class="col-md-4 randomColor header2"> <img class="swag" src="lt.png" alt=
-                  "thing"> <img class="swag" src="lt.png" alt=
-                    "thing">  <p>
-                        THIS THING IS ADORABLE
-                      </p></div>
+            <div class="col-md-4 randomColor header21"><img src="lt.png" alt="thing"></div>
+            <div class="col-md-4 randomColor header2"> <img class="swag" src="lt.png" alt="thing"> <img class="swag" src="lt.png" alt="thing"> </div>
+            <div class="col-md-4 randomColor header2"> <img class="swag" src="lt.png" alt="thing"> <img class="swag" src="lt.png" alt="thing">
+                <p>
+                    THIS THING IS ADORABLE
+                </p>
             </div>
+        </div>
 
-            <div class="row">
-                  <div class="col-md-4 randomColor header2 papa"><img class="son" src="lt.png" alt=
-                    "thing"></div>
-                 <div class="col-md-4 randomColor header2 papa"><img class="son2" src="lt.png" alt=
-                   "thing"> <img class="son3" src="lt.png" alt=
-                     "thing"></div>
-                    <div class="col-md-4 randomColor header2 papa"><img class="son2" src="lt.png" alt=
-                      "thing"> <img class="son3" src="lt.png" alt=
-                        "thing"> <p id="low">
-                          LOOK HOW CENTERED
-                        </p></div>
-                </div>
+        <div class="row">
+            <div class="col-md-4 randomColor header2 papa"><img class="son" src="lt.png" alt="thing"></div>
+            <div class="col-md-4 randomColor header2 papa"><img class="son2" src="lt.png" alt="thing"> <img class="son3" src="lt.png" alt="thing"></div>
+            <div class="col-md-4 randomColor header2 papa"><img class="son2" src="lt.png" alt="thing"> <img class="son3" src="lt.png" alt="thing">
+                <p id="low">
+                    LOOK HOW CENTERED
+                </p>
+            </div>
+        </div>
 
-                <div class="row">
-                      <div class="col-md-4 randomColor header2">.col-md-12</div>
-                     <div class="col-md-4 randomColor header2">.col-md-12</div>
-                        <div class="col-md-4
+        <div class="row">
+            <div class="col-md-4 randomColor header2">.col-md-12</div>
+            <div class="col-md-4 randomColor header2">.col-md-12</div>
+            <div class="col-md-4
                          randomColor header2">.col-md-12</div>
-                    </div>
+    </div>
 
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-        <script>
-            function getRandomNumber(min, max) {
-                return Math.floor(Math.random() * max + min);
-            }
+    <script>
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * max + min);
+        }
 
-            $(document).ready(function() {
+        $(document).ready(function() {
 
-                var bodyColumns = $(".randomColor");
+            var bodyColumns = $(".randomColor");
 
-                bodyColumns.each(function() {
+            bodyColumns.each(function() {
 
-                    $(this).css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
-
-                })
-
-                $("body").css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
-
+                $(this).css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
 
             })
-        </script>
+
+            $("body").css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+
+        })
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+
+.tings{
+  height: 300px;
+  max-height: 300px;
+  min-height: 300px;
+}
+
+.p{
+  text-align: center;
+}
+
+.sample{
+
+  max-width: 150px;
+}
+
+.swag{
+  max-width: 100px;
+  max-height: 100px;
+
+            margin-top: 17%;
+            margin-left: 11%;
+}
+
+.droptop{
+  text-align: center;
+  line-height: 300px;
+}
+
+.lenter{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 9%;
+}
+
+.header21 img{
+  padding: 5% 10% 5% 15%;
+            margin-top: 10%;
+            margin-left: 11%;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row emailting">
+        <div class="col-md-12 randomColor tings"> <p class="lenter">
+Change this to something about dogs or travel or some shit
+        Better Together
+Supporing dogs and travel, demanding excellence, and choosing quality above all.
+
+Join the journey for a better dog and travel experience.
+Sign up for inside info about specials and learn how you can pet our dogs.</p></div>
+        </div>
+
+
+
+        <div class="row comeseedogting">
+        <div class="col-md-12 randomColor tings"> <p class="droptop">COME SEE US TRAVEL WITH DOGS</p> </div>
+        <div class="col-md-4 randomColor tings"> <img class="swag header21" src="dog1.jpg" alt="dog" /></div>
+        <div class="col-md-4 randomColor tings"> <img class="swag" src="dog1.jpg" alt="dog" /></div>
+        <div class="col-md-4 randomColor tings"> <img class="swag" src="dog1.jpg" alt="dog" /></div>
+        </div>
+
+
+        <div class="row picturesofdogsting">
+        <div class="col-md-4 randomColor tings droptop"> Look At Dogs and Travel </div>
+        <div class="col-md-8 randomColor tings">
+          <img class="sample swag" src="dog1.jpg" alt="dog" />
+          <img class="sample swag" src="dog1.jpg" alt="dog" />
+          <img class="sample swag" src="dog1.jpg" alt="dog" />
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script>
+            function getRandomNumber(min, max) {
+                return Math.floor(Math.random() * max + min);
+            }
+
+            $(document).ready(function() {
+
+                var bodyColumns = $(".randomColor");
+
+                bodyColumns.each(function() {
+
+                    $(this).css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+                })
+
+                $("body").css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+
+            })
+        </script>
+</body>
+
+</html>

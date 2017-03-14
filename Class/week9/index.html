@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week 9</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+
+
+</style>
+  </head>
+  <body>
+
+<div class="info">Customer name: Brad</div>
+<div class="info">Credit card: ****</div>
+<div class="info">Expiry: 02/21</div>
+<div class="info">Price: 99.99</div>
+<div class="info">Address: Warsaw, Poland</div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+
+  var num1 = 5;
+  var num2 = 7;
+  var num3 = 23;
+  var num4 = 78;
+  var num5 = 9.1;
+
+  var total = num1 + num2 + num3 + num4 + num5;
+  //alert("the total is" + total);
+
+
+//for (start, end condition; increment){
+// execute code inside curly brakets
+  //}
+  //  for (var i = 0; i <= 10; i = i + 1) {
+  //console.log("the value of i is " + i)
+  //  }
+
+//var myArray = [34, 878, 4, 14, 89, 90, 545, 88, 34, 67, 33];
+//myArray[2]; 4
+
+//This will show all this line by line on the screen
+$(document).ready(function(){
+//  for (var i = 0; i <= 10; i = i + 1) {
+
+//    var myMessage = "The value in myArray at spot " + i + " is " + myArray[i];
+//    console.log(myMessage);
+//    $("body").append(myMessage + "<br>");
+//   }
+
+
+//trying to multiply by ourselves
+//var sum = 0;
+  // $(document).ready(function(){
+    // for (var i = 0; i < -10; i = i + 1) {
+
+      // var myMessage = "The value in myArray at spot " + i + " is " + myArray[i];
+       //console.log(myMessage);
+       //sum = sum + myArray[i];
+       //$("body").append(myMessage + "<br>");
+      //}
+  //$("body").append("<div>The total is " + sum + "</div>")
+  //* astrix is for multiplaction
+
+
+//him showing us how to multtiply
+//  var sum = 0;
+
+  //var product = myArray[0];
+    // $(document).ready(function(){
+      // for (var i = 1; i < myArray.length; i = i + 1) {
+
+         //multiply with next number
+ //product = product * myArray[i];
+      //  }
+  //  $("body").append("<div>The total is " + product + "</div>")
+    //* astrix is for multiplaction
+
+
+
+//object
+
+//key value pairs, delimited by comma (no comma on last key-value)
+//use curley brackets
+// not an array! so cant use array proporties like "length"
+//var shoes ={
+  //type : "converse",
+  //price : 65,
+  //src: "s1.jpg",
+  //color: "red"
+
+//}
+//how to loop thorugh proporties of an object?
+//for (var key in shoes){//for every key in car
+  //execute this code
+  //car.type
+  //exactly the same as car[type]
+//$("body").append("<div>key name is " + key + " and value is " + shoes[key] + " </div>");
+
+//}
+
+//using jquery to loop thorugh html elements
+//var infodivs = $(".info");
+
+$(".info").each(function(){
+  //use the 'this' keyword to refer to the current one in the loop
+  console.log("The text of this div is" + $(this).text() );
+
+
+
+});
+
+
+
+
+
+
+});
+
+
+
+</script>
+  </body>
+</html>
