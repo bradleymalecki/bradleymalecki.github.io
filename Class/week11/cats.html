@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week 11 - Cats</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+
+    <style media="screen">
+    /*background*/
+        #background {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            /* Ensure div tag stays behind content; -999 might work, too. */
+        }
+
+        #background img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        body{
+          text-align: center;
+          padding: -50px;
+          color: white;
+        }
+
+a{
+  color: white;
+
+}
+
+    </style>
+
+</head>
+
+<body>
+
+  <h1>LOOK AT THESE POKEMANS</h1>
+    <div id="background">
+        <img src="images/p1.jpg" />
+        <div id="myContainer">
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        //call the api with some parameters
+        var giphyUrl = "https://api.giphy.com/v1/gifs/search?q=funny+pokemon&api_key=dc6zaTOxFJmzC";
+
+    $.get(giphyUrl)
+        .done(function(data) {
+            console.log("S");
+            console.dir(data);
+            var myHtml = "";
+            for (var i = 0; i < 10; i = i + 1) {
+                console.log("src:  " + data.data[i].embed_url);
+                myHtml += '<iframe src="' + data.data[i].embed_url + '" width="480" height="457" frameborder="0" class="giphy-embed" allowfullscreen></iframe>' +
+                    '<p><a href="">via GIPHY</a></p>';
+            }
+
+            $("body").append(myHtml);
+
+            for (var i = 1; i < 6; i++) {
+                var item = weatherData.item.forecast[i];
+                myHtml += '<div class="gifContainer">';
+
+                myHtml += '</div>';
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+        })
+        .fail(function(data) {
+            console.log("F");
+            console.dir(data);
+        })
+
+
+    </script>
+</body>
+
+</html>
